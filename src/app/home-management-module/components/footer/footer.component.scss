@@ -1,0 +1,142 @@
+
+.footer-area {
+  background:#2c2b2d;
+}
+.footer-widget {
+border-bottom: 1px solid #404040;
+padding: 80px 0 65px;
+}
+
+.single-widget  p {
+  color: #bdbdbd;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+  padding-top: 30px;
+}
+.single-widget ul li {
+  list-style: none;
+}
+
+.single-widget  h4 {
+  color: #bdbdbd;
+  margin-left: 15%;
+}
+.single-widget a {
+color: #bdbdbd;
+font-size: 13px;
+font-weight: 500;
+margin-bottom: 15px;
+}
+.single-widget a:hover {
+color: rgb(207,181,59);
+transition: all 0.4s ease 0s;
+}
+
+.footer-widget-input {
+overflow: hidden;
+position: relative;
+}
+.footer-widget-input > input {
+background: transparent none repeat scroll 0 0;
+border: 1px solid #4a4949;
+color: #4a4949;
+font-size: 14px;
+height: 43px;
+padding-left: 10px;
+position: relative;
+width: 100%;
+}
+.footer-wifget-submit-btn {
+background: transparent none repeat scroll 0 0;
+border: 1px solid transparent;
+font-size: 31px;
+height: 43px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+right: -12px;
+top: 0;
+width: 100px;
+z-index: 1;
+}
+.footer-wifget-submit-btn i {
+color: #fff;
+display: inline-block;
+margin-left: 24px;
+}
+.footer-wifget-submit-btn::before {
+background: rgb(207,181,59) none repeat scroll 0 0;
+content: "";
+height: 100%;
+position: absolute;
+right: -5px;
+top: 0;
+transform: skew(-25deg);
+width: 70px;
+z-index: -1;
+}
+
+
+.footer-widget-icons {
+padding-top: 23px;
+}
+.footer-widget-icons li {
+  display: inline-block;
+}
+.footer-widget-icons a {
+border: 1px solid #fff;
+display: inline-block;
+height: 30px;
+line-height: 30px;
+margin: 0 9px 0 0;
+text-align: center;
+transition: all 0.4s ease 0s;
+width: 30px;
+}
+
+.footer-widget-icons a:hover {
+background: rgb(212,175,55);
+border: 1px solid rgb(207,181,59);
+color: #222222;
+transition: all 0.4s ease 0s;
+}
+.footer-widget-icons a:hover i {
+  color: #fff;
+  transition: all 0.4s ease 0s;
+}
+
+.footer-widget-icons a i {
+  color: #fff;
+}
+
+
+
+
+.footer-content > p {
+  color: #ffffff;
+  line-height: 80px;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-content a {
+  color: #ffffff;
+  transition: all 0.4s ease 0s;
+}
+.footer-content:hover a {
+  color: rgb(207,181,59);
+  transition: all 0.4s ease 0s;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+
+.show-scroll {
+  opacity: 1;
+}

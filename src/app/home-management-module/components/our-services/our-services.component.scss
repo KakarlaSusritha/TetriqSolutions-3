@@ -1,0 +1,65 @@
+/* Section Heading Start */
+.section-heading {
+  padding-bottom: 40px;
+  text-align: center;
+}
+.section-heading h2 {
+    color: #222222;
+    font-weight: 500;
+}
+.section-heading > p {
+    color: #6c6c6c;
+    font-weight: 300;
+}
+.careers a:hover img{
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Section Heading End */
+
+
+
+.service-area {
+	padding: 50px 0 40px;
+	position: relative;
+	text-align: center;
+}
+.service-single-content {
+    padding: 23px;
+}
+.single-service-icon {
+  display: inline-block;
+  // height: 43px;
+  margin:10px 40px 40px 0px;
+
+}
+.service-single-content h3 {
+    color: #222222;
+    font-weight: 500;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+.service-single-content > p {
+    font-weight: 300;
+    line-height: 27px;
+}
+
